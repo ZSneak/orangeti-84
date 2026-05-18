@@ -11,7 +11,7 @@ OrangeTI-84 was created as a solution to a problem. **Traditional calculators ar
 | Keypad only | Touchscreen, keypad, and usb/bluetooth keyboard possible |
 | Built In Display Only | LED Touchscreen, and DP USB-C |
 ## What is it used for?
-Right now, I am planning to install android, and have it run applications like google, youtube, and instagram. This makes it possible to do infinetly more on this than you ever could on your traditional calculator. Because the way that the calculator is built, it is also possible to install a regular version of linux. I am planning to have the ON button change the display to run a TI-84 Emulator, so that it can appear like a regular calculator if needed. Additionally, I am planning to have the arrow buttons function as a mouse or like the tab+arrows on a pc (have not decided yet...) and you know, have the touchscreen work like a touchscreen.
+Right now, I am planning to install android, and have it run applications like google, youtube, and instagram. This makes it possible to do infinetly more on this than you ever could on your traditional calculator. Because the way that the calculator is built, it is also possible to install a regular version of linux. I am planning to have the ON button change the display to run a TI-84 Emulator, so that it can appear like a regular calculator if needed. Additionally, I am planning to have the arrow buttons function as a mouse or like the tab+arrows on a pc (have not decided yet...) and you know, have the touchscreen work like a touchscreen. The keypad will be connected to the OrangePi through a Raspberry Pi Pico, which will function as a usb-keyboard.
 ## Pictures please
 While the current design has not been rationalized, I can provide some diagrams and such for your pleasure.
 <br>
@@ -21,5 +21,5 @@ While the current design has not been rationalized, I can provide some diagrams 
 <br><br>
 <img width="272" height="600" alt="OrangeTI-84 Wiring" src="https://github.com/user-attachments/assets/9e9559d7-ef9e-4fcd-abb7-cd9966c1d911" />
 <br>
-*Wiring Diagram of Keypad to the Arduino*<br>
+*Wiring Diagram of Keypad to the Raspberry Pi Pico*<br>
 Diodes will connect each row and column to prevent ghosting
