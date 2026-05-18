@@ -15,11 +15,12 @@ Right now, I am planning to install android, and have it run applications like g
 ## Pictures please
 While the current design has not been rationalized, I can provide some diagrams and such for your pleasure.
 <br>
+<br>
 <img width="1116" height="338" alt="image" src="https://github.com/user-attachments/assets/8e78b02b-130f-47bc-988e-a28a31e13c4f" />
 <!--img width="1705" height="512" alt="image" src="https://github.com/user-attachments/assets/f9cb76b4-a349-4b7e-bf7d-0b4337df4076" / -->
-*Picture of Ports*
+*Picture of Ports. 3d model by Joseph Aja on GrabCAD, edited by me*
 <br><br>
 <img width="272" height="600" alt="OrangeTI-84 Wiring" src="https://github.com/user-attachments/assets/9e9559d7-ef9e-4fcd-abb7-cd9966c1d911" />
 <br>
-*Wiring Diagram of Keypad to the Raspberry Pi Pico*<br>
-Diodes will connect each row and column to prevent ghosting
+*Wiring Diagram of Keypad to the Raspberry Pi Pico. Calculator design created by OmegaAOL on Wikipedia, licensed under CC0.
+Diodes will connect each Row and Column to prevent ghosting.* <br>
