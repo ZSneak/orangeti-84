@@ -25,5 +25,5 @@ While the current design has not been rationalized, I can provide some diagrams 
 *Wiring Diagram of Keypad to the Raspberry Pi Pico. Calculator design created by OmegaAOL on Wikipedia, licensed under CC0.
 Diodes will connect each Row and Column to prevent ghosting.* <br>
 <br>
-<img width="1181" height="1672" alt="SCH_Wiring of OrangeTi-84_1-P1_2026-06-06" src="https://github.com/user-attachments/assets/02ae49de-e608-4682-9cad-a3a5c51c2eb3" /> <br>
+<img width="1181" height="836" alt="SCH_Wiring of OrangeTi-84_1-P1_2026-06-06" src="https://github.com/user-attachments/assets/02ae49de-e608-4682-9cad-a3a5c51c2eb3" /> <br>
 *Wiring Diagram of the build. This shows how everything connects under the hood.*
