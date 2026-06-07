@@ -23,7 +23,7 @@ While the current design has not been rationalized, I can provide some diagrams 
 <img width="272" height="600" alt="OrangeTI-84 Wiring" src="https://github.com/user-attachments/assets/9e9559d7-ef9e-4fcd-abb7-cd9966c1d911" />
 <br>
 *Wiring Diagram of Keypad to the Raspberry Pi Pico. Calculator design created by OmegaAOL on Wikipedia, licensed under CC0.
-Diodes will connect each Row and Column to prevent ghosting.* <br>
+Diodes will connect each Column to Row to prevent ghosting.* <br>
 <br>
 <img width="1181" height="836" alt="SCH_Wiring of OrangeTi-84_1-P1_2026-06-06" src="https://github.com/user-attachments/assets/02ae49de-e608-4682-9cad-a3a5c51c2eb3" /> <br>
 *Wiring Diagram of the build. This shows how everything connects under the hood.*
