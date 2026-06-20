@@ -26,7 +26,7 @@ def GetCurrentKeymap(numb = 1):
             Keycode.F12, Keycode.ZERO, Keycode.PERIOD, Keycode.MINUS, Keycode.GRAVE_ACCENT #in the software make sure to add the grave accent to underscore conversion
             ]
     if numb == 2:
-        return [None]
+        return [None] #TODO
     else:
         raise ValueError("current keymap is not one or two twinium")
 
