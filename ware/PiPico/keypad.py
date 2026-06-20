@@ -14,10 +14,19 @@ keymap_num = 1
 def GetCurrentKeymap(numb = 1):
     if numb == 1:
         return [
-            
-        ]
+            Keycode.F1, Keycode.F2, Keycode.F3, Keycode.F4, Keycode.F5,
+            Keycode.LEFT_SHIFT, Keycode.ESCAPE, Keycode.RIGHT_SHIFT, None, None,
+            Keycode.CONTROL, Keycode.EQUALS, Keycode.END, None, None,
+            Keycode.HOME, Keycode.PAGE_UP, Keycode.PAGE_DOWN, Keycode.INSERT, Keycode.DELETE,
+            Keycode.D, Keycode.E, Keycode.F, Keycode.G, Keycode.H,
+            Keycode.I, Keycode.J, Keycode.K, Keycode.L, Keycode.FORWARD_SLASH,
+            Keycode.N, Keycode.SEVEN, Keycode.EIGHT, Keycode.NINE, Keycode.KEYPAD_ASTERISK,
+            Keycode.S, Keycode.FOUR, Keycode.FIVE, Keycode.SIX, Keycode.MINUS,
+            Keycode.X, Keycode.ONE, Keycode.TWO, Keycode.THREE, Keycode.KEYPAD_PLUS,
+            Keycode.F12, Keycode.ZERO, Keycode.PERIOD, Keycode.MINUS, Keycode.GRAVE_ACCENT #in the software make sure to add the grave accent to underscore conversion
+            ]
     if numb == 2:
-        return
+        return [None]
     else:
         raise ValueError("current keymap is not one or two twinium")
 
